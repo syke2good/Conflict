@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="resetsheet" href="C:\Users\danie\Mini\reset.css"/>
+    <link rel="stylesheet" href="C:\Users\danie\Mini\mini.css"/>
+    
+</head>
+    <header>
+        CSS SNIPPET CHEATSHEET
+    </header>    
+<body>
+    <h1> Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to the pages! Select any
+        snippet below and it'll automatically select all the code for you to copy. 
+    </h1>
+   <div>
+        <div class="justify">
+           <section>
+                <h2>Flexbox Row</h2>
+                <p>use these properties to create a Flexbox row layout.</p>
+                <pre>
+                    <code>
+                       .row {
+                           display:flex;
+                           flex-direction: row;
+                           flex-wrap: wrap;
+                       } 
+                    </code>
+                </pre>
+           </section>
+           <section>
+                <h2>Flexbox Column</h2>
+                <p>Use this to create a flexbox cloumn layout.</p>
+                <pre>
+                    <code>
+                        .column {
+                            display: flex;
+                            flex-direction: column
+                        }
+                    </code>
+                </pre>
+           </section>
+           <section>
+                <h2>CSS Grid Layout</h2>
+                <p>Build a 12-column layout using CSS Grid</p>
+                <pre>
+                    <code>
+                        .grid {
+                            display:grid;
+                            width: 100%;
+                            grid-template-column: repeat(12, 1fr);
+                        }
+                    </code>
+                </pre>
+           </section>
+           <section>
+                <h2>Linear Gradients</h2>
+                <P>This will create a background linear gradient from top to bottom</P>
+                <pre>
+                    <code>
+                        .linear-gradient-background {
+                            background-image: linear-gradient(
+                                rgba(232, 102, 236, 0.3) 0%,
+                                rgba(232, 102, 236, 0.6) 100%
+                            );
+                        }
+
+                </code>
+                </pre>
+           </section>
+           <section>
+                <h2>Box Transtion Glow</h2>
+                <p>Use Transtion and box shadows to glow on hover.</p>
+                <pre>
+                    <code>
+                        .code-card .card-header {
+                            border-radius: 8px;
+                            trasition: all 0.5s ease-in-out;
+                        }
+                        
+                        .code-card:hover, .code-card:hover .card-header {
+                             box-shadow: inset 0px 0px 8px 
+                                rgba(232, 102, 236, 1), 0 0 15px
+                                rgba(232, 102, 236, 1);
+                        }
+                    </code>
+                </pre>
+           </section>
+           <section>
+                <h2>Overlay Card with Title</h2>
+                <p>use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                <pre>
+                    <code>
+                        .card-header {
+                            position: relative;
+                            margin-top: -20px;
+                        }
+                    </code>
+                </pre>
+           </section>
+        </div>
+   </div> 
+
+</body>
+<footer>
+    <h3>MADE WITH CSS</h3>
+</footer>
+</html>
+
+
